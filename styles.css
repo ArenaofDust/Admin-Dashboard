@@ -1,0 +1,32 @@
+html, 
+body {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: darkgrey;
+}
+
+.page-container .sidebar {
+    background: lightskyblue;
+    position: absolute;
+    height: 100%;
+    width: 20%;
+}
+
+.page-container .header {
+    background-color: white;
+    width: 100%;
+}
+
+.header img {
+    height: 50px;
+    width: 50px;
+}
