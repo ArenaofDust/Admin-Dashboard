@@ -81,6 +81,7 @@ svg {
     align-items: center;
     gap: 20px;
     padding-left: 20px;
+    padding-right: 20px;
 }
 
 .search {
@@ -93,3 +94,29 @@ svg {
 .topbar svg {
     fill: black;
 }
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 50px;
+    gap: 30px;
+}
+
+.navbar-logo {
+    height: 50px;
+}
+
+.profilebar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.profile-photo {
+    height: 50px;
+}
+
