@@ -49,13 +49,15 @@ h2 {
 }
 */
 
-.main-sidebar {
+.main-sidebar,
+.settings-sidebar {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.main-side-icon {
+.main-side-icon,
+.settings-icon {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -66,3 +68,28 @@ svg {
     height: 30px;
 }
 
+.topbar {
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 1.3fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.searchbar {
+    grid-column: 1/3;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.search {
+    height: 50%;
+    width: 100%;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+
+.topbar svg {
+    fill: black;
+}
